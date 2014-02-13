@@ -19,6 +19,10 @@
 		A4A3BBC118AD392500AD0878 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A3BBA918AD392500AD0878 /* UIKit.framework */; };
 		A4A3BBC918AD392500AD0878 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4A3BBC718AD392500AD0878 /* InfoPlist.strings */; };
 		A4A3BBCB18AD392500AD0878 /* Practice1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3BBCA18AD392500AD0878 /* Practice1Tests.m */; };
+		A4A3BBD618AD395100AD0878 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3BBD518AD395100AD0878 /* Card.m */; };
+		A4A3BBD918AD766000AD0878 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3BBD818AD766000AD0878 /* Deck.m */; };
+		A4A3BBDC18AD7B2000AD0878 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3BBDB18AD7B2000AD0878 /* PlayingCard.m */; };
+		A4A3BBDF18AD8AF800AD0878 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A3BBDE18AD8AF800AD0878 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		A4A3BBC618AD392500AD0878 /* Practice1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Practice1Tests-Info.plist"; sourceTree = "<group>"; };
 		A4A3BBC818AD392500AD0878 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4A3BBCA18AD392500AD0878 /* Practice1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practice1Tests.m; sourceTree = "<group>"; };
+		A4A3BBD418AD395100AD0878 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		A4A3BBD518AD395100AD0878 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		A4A3BBD718AD766000AD0878 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		A4A3BBD818AD766000AD0878 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		A4A3BBDA18AD7B2000AD0878 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		A4A3BBDB18AD7B2000AD0878 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		A4A3BBDD18AD8AF800AD0878 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		A4A3BBDE18AD8AF800AD0878 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,14 @@
 		A4A3BB9918AD392400AD0878 = {
 			isa = PBXGroup;
 			children = (
+				A4A3BBD418AD395100AD0878 /* Card.h */,
+				A4A3BBD518AD395100AD0878 /* Card.m */,
+				A4A3BBD718AD766000AD0878 /* Deck.h */,
+				A4A3BBD818AD766000AD0878 /* Deck.m */,
+				A4A3BBDA18AD7B2000AD0878 /* PlayingCard.h */,
+				A4A3BBDB18AD7B2000AD0878 /* PlayingCard.m */,
+				A4A3BBDD18AD8AF800AD0878 /* PlayingCardDeck.h */,
+				A4A3BBDE18AD8AF800AD0878 /* PlayingCardDeck.m */,
 				A4A3BBAB18AD392500AD0878 /* Practice1 */,
 				A4A3BBC418AD392500AD0878 /* Practice1Tests */,
 				A4A3BBA418AD392500AD0878 /* Frameworks */,
@@ -240,8 +260,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A3BBD918AD766000AD0878 /* Deck.m in Sources */,
+				A4A3BBDF18AD8AF800AD0878 /* PlayingCardDeck.m in Sources */,
 				A4A3BBB218AD392500AD0878 /* main.m in Sources */,
 				A4A3BBB618AD392500AD0878 /* Practice1AppDelegate.m in Sources */,
+				A4A3BBDC18AD7B2000AD0878 /* PlayingCard.m in Sources */,
+				A4A3BBD618AD395100AD0878 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
