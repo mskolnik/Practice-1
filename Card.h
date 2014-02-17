@@ -14,4 +14,5 @@
 @property (nonatomic) BOOL chosen;
 @property (nonatomic) BOOL matched;
 
+- (int)match:(Card *)aCard;
 @end
